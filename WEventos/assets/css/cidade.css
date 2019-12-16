@@ -1,0 +1,123 @@
+
+/*---------------------------CADASTRAR-----------------------------------------*/
+
+.table-cidade{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgb(254, 193, 7);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.top{
+    height: 40px;
+    width: 90%;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+.top1{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.session{
+    background-color: white;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.session-top{
+    background-color: white;
+    width: 90%;
+    height: 35px;
+    border-radius: 10px 10px 0 0;
+}
+
+.session-botton{
+    background-color: white;
+    width: 90%;
+    height: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+input{
+    text-align: start;
+}
+
+.th{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.td{
+    width: 76%;
+    text-align: center;
+    height: 38px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.tda{
+    width:8%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 5px;
+    margin-right: 10%;
+}
+
+
+.tde{
+    width:8%;
+    margin-right: 1%;
+    padding-top: 5px;
+    margin-right: 10%;
+}
+
+.botton{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+/*---------------------------ATUALIZAR/ADICIONAR-----------------------------------------*/
+
+#form-cidade{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c1{
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.c2{
+    width: 90%;
+}
+
+.c3{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
